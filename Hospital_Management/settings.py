@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'appointment',
     'service',
     'contact',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
