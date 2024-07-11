@@ -9,5 +9,6 @@ urlpatterns = [
     path('', include("service.urls")),
     path('patient/', include("patient.urls")),
     path('doctor/', include("doctor.urls")),
+    path('', include("appointment.urls")),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
